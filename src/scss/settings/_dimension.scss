@@ -1,0 +1,25 @@
+:root{
+
+  //max
+
+  --max-width:1200px;
+  --max-min:335px;
+
+  //pad
+
+  --padding-thin: 10px ;
+  --padding-large: 20px;
+
+  --margin-thin: 10px;
+  --margin-large: 20px;
+
+
+}
+
+//media querie breakpoints
+
+$vw-thin:320px;
+$vw-small:576px;
+$vw-medium:768px;
+$vw-large:992px;
+$vw-huge:var(--max-width);

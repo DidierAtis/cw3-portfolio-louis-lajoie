@@ -1,0 +1,59 @@
+.hero{
+  background: var(--color-bg-secondary);
+
+padding: var(--padding-large) var(--padding-thin) 0 var(--padding-thin);
+
+  text-align: center;
+
+  .flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img{
+    width: 60%;
+    margin: 30px 0 0;
+  }
+
+  h1,h4 ,{
+    line-height: var(--lh--thin);
+    padding:0;
+    margin: 0;
+  }
+
+
+  img{
+    width: 50%;
+  }
+
+}
+
+@media screen and (min-width :$vw-medium) {
+
+  .hero{
+    .flex{
+      flex-direction: row;
+
+      div{
+        width: 48%;
+      }
+
+    }
+
+
+  }
+
+}
+@media screen and (min-width :$vw-large) {
+
+.hero{
+  background: 100vw var(--color-bg-secondary);
+}
+
+
+
+
+
+
+}
